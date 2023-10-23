@@ -54,7 +54,7 @@ key_entry.pack(pady=5)
 activate_button = tk.Button(root, text="Activate License Key", command=activate_license)
 activate_button.pack()
 
-# Create a button to copy the license key to the clipboard (initially disabled)
+# Create a button to copy the license key to the clipboard (initially disabled)/active when the license is created
 copy_button = tk.Button(root, text="Copy to Clipboard", command=copy_key_to_clipboard, state="disabled")
 copy_button.pack()
 
